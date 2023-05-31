@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import './app.css';
 
 function App() {
   const [activeSection, setActiveSection] = useState('About Me');
@@ -50,7 +50,7 @@ function App() {
         {activeSection === 'About Me' && (
           <section>
             <h2>About Me</h2>
-            <img src="avatar.jpg" alt="Avatar" />
+            <img src="" alt="Icon" />
             <p>Short bio about the developer.</p>
           </section>
         )}
@@ -109,9 +109,8 @@ function App() {
       <footer>
         <p>
           Connect with me on:
-          <a href="https://github.com/">GitHub</a>
-          <a href="https://linkedin.com/">LinkedIn</a>
-          <a href="https://stackoverflow.com/">Stack Overflow</a>
+          <a href="https://github.com/clapitan1">GitHub</a>
+          <a href="https://www.linkedin.com/in/caleb-lapitan-62669926a/">LinkedIn</a>
         </p>
       </footer>
     </div>
